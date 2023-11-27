@@ -4,30 +4,42 @@ const Background = () => {
   const [randoms, setRandoms] = useState([]);
   const [randoms2, setRandoms2] = useState([]);
 
-  useEffect(() => {
-    const randoms = Array.from({ length: 500 }, () => ({
-      top: Math.floor(Math.random() * 100) + '%',
-      left: Math.floor(Math.random() * 100) + '%',
-      scale: Math.random() + 1,
-      duration: Math.random() * 5 + 5 + 's',
-      delay: Math.random() * 5 + 's'
-    }));
-    setRandoms(randoms);
-  }, []);
+  const [length, setLength] = useState(window.innerWidth > 768 ? 500 : 250)
+  
+  const handleResize = () => {
+    if (window.innerWidth > 768) {
+      setLength(500)
+    } else {
+      setLength(250)
+    }
+  }
+
+  window.addEventListener('resize', handleResize)
 
   useEffect(() => {
-    const randoms = Array.from({ length: 500 }, () => ({
+    const randoms = Array.from({length}, () => ({
       top: Math.floor(Math.random() * 100) + '%',
       left: Math.floor(Math.random() * 100) + '%',
       scale: Math.random() + 1,
       duration: Math.random() * 5 + 5 + 's',
       delay: Math.random() * 5 + 's'
     }));
-    setRandoms2(randoms);
-  }, []);
+    const randoms2 = Array.from({length}, () => ({
+      top: Math.floor(Math.random() * 100) + '%',
+      left: Math.floor(Math.random() * 100) + '%',
+      scale: Math.random() + 1,
+      duration: Math.random() * 5 + 5 + 's',
+      delay: Math.random() * 5 + 's'
+    }));
+    setRandoms(randoms)
+    setRandoms2(randoms2)
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [length])
 
   return (
-    <div className="-z-50 bg-black fixed h-screen w-[1920px] pointer-events-none">
+    <div className="-z-50 bg-black fixed h-screen w-screen pointer-events-none">
       <div>
         {randoms.map((random, i) => (
           <h1
