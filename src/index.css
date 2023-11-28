@@ -11,14 +11,22 @@
   src: url('./fonts/Minecraft.ttf');
 }
 
-@keyframes animate {
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+@keyframes right {
   0% {
-    opacity: 0;
-  }
-  5% {
-    opacity: 1;
+    transform: translateX(-1536px);
   }
   100% {
-    transform: translateY(-100vh);
+    transform: translateX(0);
+  }
+}
+
+@keyframes left {
+  100% {
+    transform: translateX(-1536px);
   }
 }
