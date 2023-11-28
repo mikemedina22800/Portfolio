@@ -11,14 +11,9 @@
   src: url('./fonts/Minecraft.ttf');
 }
 
-body {
-  margin: 0;
-  overflow: hidden;
-}
-
 @keyframes right {
   0% {
-    transform: translateX(-1536px);
+    transform: translateX(-1920px);
   }
   100% {
     transform: translateX(0);
@@ -27,6 +22,6 @@ body {
 
 @keyframes left {
   100% {
-    transform: translateX(-1536px);
+    transform: translateX(-1920px);
   }
 }

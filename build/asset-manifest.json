@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0a4fb7ca.css",
-    "main.js": "/Portfolio/static/js/main.3c8083fd.js",
+    "main.css": "/Portfolio/static/css/main.f77e531d.css",
+    "main.js": "/Portfolio/static/js/main.2eb6fbc0.js",
     "static/media/cryptomatics.png": "/Portfolio/static/media/cryptomatics.e7211550cf88855b075f.png",
     "static/media/weatherboy.png": "/Portfolio/static/media/weatherboy.c72a8841e145486c9f8d.png",
     "static/media/Minecraft.ttf": "/Portfolio/static/media/Minecraft.81f6c7f882fcc2dee106.ttf",
-    "static/media/m-solid.svg": "/Portfolio/static/media/m-solid.0f7065aa005b058e218e390fa63875b8.svg",
+    "static/media/m-solid.svg": "/Portfolio/static/media/m-solid.6d53496b81de31f041b6e473a5051e17.svg",
     "index.html": "/Portfolio/index.html",
-    "main.0a4fb7ca.css.map": "/Portfolio/static/css/main.0a4fb7ca.css.map",
-    "main.3c8083fd.js.map": "/Portfolio/static/js/main.3c8083fd.js.map"
+    "main.f77e531d.css.map": "/Portfolio/static/css/main.f77e531d.css.map",
+    "main.2eb6fbc0.js.map": "/Portfolio/static/js/main.2eb6fbc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a4fb7ca.css",
-    "static/js/main.3c8083fd.js"
+    "static/css/main.f77e531d.css",
+    "static/js/main.2eb6fbc0.js"
   ]
 }
