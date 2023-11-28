@@ -1,1 +1,1 @@
-This is a React app that serves as my professional website for employment.
+This is a React app that serves as my professional website for employment. You can view it [here](https://mikemedina22800.github.io/Portfolio/).
