@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fe6fd646.css",
-    "main.js": "/Portfolio/static/js/main.17d2e87e.js",
+    "main.css": "/Portfolio/static/css/main.e130364e.css",
+    "main.js": "/Portfolio/static/js/main.fd78a49c.js",
     "static/media/cryptomatics.png": "/Portfolio/static/media/cryptomatics.e7211550cf88855b075f.png",
     "static/media/weatherboy.png": "/Portfolio/static/media/weatherboy.528aa719f50ef92265d8.png",
     "static/media/Minecraft.ttf": "/Portfolio/static/media/Minecraft.81f6c7f882fcc2dee106.ttf",
+    "static/media/github.svg": "/Portfolio/static/media/github.8278941d1b24a9b9e8e2d4232b607f3e.svg",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.c5b0b1b4792c4adac01506428d371c41.svg",
     "static/media/m-solid.svg": "/Portfolio/static/media/m-solid.6d53496b81de31f041b6e473a5051e17.svg",
     "index.html": "/Portfolio/index.html",
+    "static/media/email.svg": "/Portfolio/static/media/email.fa4990f5abfd4faf248530df7dc344f6.svg",
     "static/media/React-icon.svg": "/Portfolio/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.fe6fd646.css.map": "/Portfolio/static/css/main.fe6fd646.css.map",
-    "main.17d2e87e.js.map": "/Portfolio/static/js/main.17d2e87e.js.map"
+    "main.e130364e.css.map": "/Portfolio/static/css/main.e130364e.css.map",
+    "main.fd78a49c.js.map": "/Portfolio/static/js/main.fd78a49c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe6fd646.css",
-    "static/js/main.17d2e87e.js"
+    "static/css/main.e130364e.css",
+    "static/js/main.fd78a49c.js"
   ]
 }
