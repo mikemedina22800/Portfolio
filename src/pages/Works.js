@@ -8,7 +8,7 @@ const Works = () => {
 
   return (
     <div className='pt-20 w-screen flex flex-col items-center text-white font-bold'>
-      <div className='flex flex-col sm:flex-row my-20'>
+      <div className='flex flex-col sm:flex-row items-center my-20'>
         <div className='flex flex-col items-center sm:mr-20 sm:mb-0 mb-5'>
           <a href={`https://mikemedina22800.github.io/${appImage == cryptomatics ? 'Cryptomatics' : 'Weatherboy'}/`}>
             <img src={appImage} className='w-80 sm:w-[48rem] border-black sm:border-[10px] border-[5px] screen'/>
@@ -25,8 +25,9 @@ const Works = () => {
               </div>
             </div>
             <p className='sm:text-lg text-sm'>
-              A React app that displays real time crypto stats and trends. 
-              Data is fetched from <a href="https://rapidapi.com/Coinranking/api/coinranking1" className='underline text-[aqua]'>Coinranking API</a>.
+              A fully responsive React app that displays real time crypto stats and trends.
+              This app is stylized with Tailwind CSS and Material UI.
+              Data is fetched using Axios from <a href="https://rapidapi.com/Coinranking/api/coinranking1" className='underline text-[aqua]'>Coinranking API</a>.
             </p>
           </div>
         }
@@ -39,9 +40,11 @@ const Works = () => {
               </div>
             </div>
             <p className='sm:text-lg text-sm'>
-              A React app that displays real time weather conditions and forecasts from NWS stations across the United States.
-              The app includes a hurricane tracker that displays both active and historical hurricane data across the Atlantic and Pacific Ocean.
-              Data is fetched from <a href="https://www.weather.gov/documentation/services-web-api" className='underline text-[aqua]'>NWS API</a> and <a href="https://www.aerisweather.com/support/docs/api/" className='underline text-[aqua]'>AerisWeather API</a>.
+              A fully responsive React app that displays real time weather conditions and forecasts from NWS stations across the United States.
+              A searchbar with autocomplete functionality for US cities is provided with the use of Google Maps Platform.
+              Included is a hurricane tracker that displays both active and historical hurricane data across the Atlantic and Pacific Ocean.
+              This app is stylized with Tailwind CSS and Material UI.
+              Data is fetched using Axios from <a href="https://www.weather.gov/documentation/services-web-api" className='underline text-[aqua]'>NWS API</a> and <a href="https://www.aerisweather.com/support/docs/api/" className='underline text-[aqua]'>AerisWeather API</a>.
             </p>
           </div>
         }
