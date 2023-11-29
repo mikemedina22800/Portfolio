@@ -10,8 +10,11 @@ const Works = () => {
     <div className='pt-20 w-screen flex flex-col items-center text-white font-bold'>
       <div className='flex flex-col sm:flex-row items-center my-20'>
         <div className='flex flex-col items-center sm:mr-20 sm:mb-0 mb-5'>
-          <a href={`https://mikemedina22800.github.io/${appImage == cryptomatics ? 'Cryptomatics' : 'Weatherboy'}/`}>
-            <img src={appImage} className='w-80 sm:w-[48rem] border-black sm:border-[10px] border-[5px] screen'/>
+          <a className=' screen' href={`https://mikemedina22800.github.io/${appImage == cryptomatics ? 'Cryptomatics' : 'Weatherboy'}/`}>
+            <img src={appImage} className='w-80 sm:w-[48rem] border-gray-600 sm:border-[10px] border-[5px] !border-b-0 '/>
+            <div className='w-80 flex justify-center items-center sm:w-[48rem] bg-gray-600 h-2.5 sm:h-5'>
+              <div className='bg-gray-800 h-1.5 w-1.5 sm:w-3 sm:h-3 rounded-full'/>
+            </div>
           </a>
           <div className='sm:w-32 w-16 -z-10 bg-gray-600 sm:h-16 h-8'/>
           <div className='sm:h-[10px] h-[5px] sm:w-96 w-48 bg-gray-400 rounded-t-lg'/>
