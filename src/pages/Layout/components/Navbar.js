@@ -13,15 +13,12 @@ const Navbar = () => {
       <h1 className='h-10 w-10 flex items-center justify-center border-[blue] border-2 p-2 rounded-full'>
         <img src={m}/>
       </h1>
-      <div className='hidden sm:flex text-lg text-white w-96 justify-between items-center'>
+      <div className='hidden sm:flex text-lg text-white w-64 justify-between items-center'>
         <Link to=''>
           <h1 className={`${path == '/' && ('text-[aqua]')} hover:text-[aqua]`}>Home</h1>
         </Link>
         <Link to='works'>
           <h1 className={`${path == '/works' && ('text-[aqua]')} hover:text-[aqua]`}>Works</h1>
-        </Link>
-        <Link to='contact'>
-          <h1 className={`${path == '/contact' && ('text-[aqua]')} hover:text-[aqua]`}>Contact</h1>
         </Link>
       </div>
       <div className="text-white sm:hidden">
@@ -36,9 +33,6 @@ const Navbar = () => {
           </Link>
           <Link to="works">
             <h1 className={`py-4 pl-4 ${path == '/works' && 'text-[aqua]'} hover:!text-[aqua]`}>Works</h1>
-          </Link>
-          <Link to="works">
-            <h1 className={`py-4 pl-4 ${path == '/contact' && 'text-[aqua]'} hover:!text-[aqua]`}>Contact</h1>
           </Link>
         </div>
       }

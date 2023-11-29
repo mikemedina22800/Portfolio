@@ -13,8 +13,8 @@ const Works = () => {
           <a href={`https://mikemedina22800.github.io/${appImage == cryptomatics ? 'Cryptomatics' : 'Weatherboy'}/`}>
             <img src={appImage} className='w-80 sm:w-[48rem] border-black sm:border-[10px] border-[5px] screen'/>
           </a>
-          <div className='sm:w-32 w-16 bg-gray-600 sm:h-16 h-8'/>
-          <div className='sm:h-[10px] h-[5px] sm:w-96 w-48 bg-gray-400 rounded-lg'/>
+          <div className='sm:w-32 w-16 -z-10 bg-gray-600 sm:h-16 h-8'/>
+          <div className='sm:h-[10px] h-[5px] sm:w-96 w-48 bg-gray-400 rounded-t-lg'/>
         </div>
         {appImage == cryptomatics &&
           <div className={`rounded-xl p-5 bg-purple-900 h-fit sm:w-[36rem] w-80 animate__animated animate__slide${appImage == cryptomatics ? 'InRight' : 'OutLeft'}`}>
