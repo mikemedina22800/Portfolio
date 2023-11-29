@@ -1,1 +1,1 @@
-This is a React app that serves as my professional website for employment. This app is stylized with Tailwind CSS and Material UI. You can view it [here](https://mikemedina22800.github.io/Portfolio/).
+This is a React app that serves as my professional website for employment. This app is stylized with Tailwind CSS and Material UI. You can view this app [here](https://mikemedina22800.github.io/Portfolio/).
