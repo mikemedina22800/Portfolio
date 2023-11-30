@@ -24,7 +24,7 @@ const Works = () => {
 
   return (
     <>
-      <div className='pt-20 w-screen flex flex-col items-center text-white font-bold'>
+      <div className='pt-20 w-screen h-screen flex flex-col items-center text-white font-bold overflow-hidden'>
         <div className='flex flex-col sm:flex-row items-center my-20'>
           <div className='flex flex-col items-center sm:mr-20 sm:mb-0 mb-5'>
             <a 

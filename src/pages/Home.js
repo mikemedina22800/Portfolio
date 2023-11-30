@@ -19,7 +19,7 @@ const Home = () => {
   }
 
   return (
-    <div className="pt-20 font-bold flex sm:flex-row flex-col bg-black w-screen overflow-hidden">
+    <div className="pt-20 font-bold flex sm:flex-row flex-col bg-black w-screen h-screen overflow-hidden">
       <div className="flex flex-col justify-between h-[calc(100vh-5rem)] py-2">
         {row('blue')}{row('aqua')}
         <div className="text-white font-bold py-4 sm:px-20 px-10 w-screen" style={{fontFamily:'Poppins'}}>
