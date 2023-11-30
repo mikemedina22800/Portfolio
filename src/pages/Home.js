@@ -12,7 +12,10 @@ const Home = () => {
 
   const row = (color) => {
     return (
-      <div className='w-[3840px] text-2xl flex justify-between' style={{fontFamily: 'Minecraft', color: color, animation: `${color == 'blue' ? 'left' : 'right'} 15s linear infinite`}}>
+      <div 
+        className='w-[3840px] text-2xl flex justify-between' 
+        style={{fontFamily: 'Minecraft', color: color, animation: `${color == 'blue' ? 'left' : 'right'} 15s linear infinite`}}
+      >
         {myArray.map((num, i) => {return <p key={i}>{num}</p>})}
       </div>
     )

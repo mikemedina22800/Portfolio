@@ -8,19 +8,6 @@ import { CircularProgress } from '@mui/material'
 const Works = () => {
   const [appImage, setAppImage] = useState(cryptomatics)
   const [loading, setLoading] = useState(true)
-  const [size, setSize] = useState(window.innerWidth >= 640 ? '5rem' : '2.5rem')
-
-  const handleResize = () => {
-    setSize((prevSize) => {
-      if (window.innerWidth >= 640) {
-        return prevSize != '5rem' ? '5rem' : prevSize
-      } else {
-        return prevSize != '2.5rem' ? '2.5rem' : prevSize
-      }
-    });
-  }
-
-  window.addEventListener('resize', handleResize)
 
   return (
     <>
@@ -31,7 +18,7 @@ const Works = () => {
               className='screen flex justify-center items-center bg-gray-200 sm:w-[48rem] w-80 sm:h-[24rem] h-40 border-gray-600 sm:border-[10px] border-[5px] !border-b-0 border-box' 
               href={`https://mikemedina22800.github.io/${appImage === cryptomatics ? 'Cryptomatics' : 'Weatherboy'}/`}
             >
-              {loading === true && <CircularProgress size={size}/>}
+              {loading === true && <CircularProgress className='sm:!w-20 sm:!h-20 !h-10 !w-10'/>}
               <img src={appImage} onLoad={() => {setLoading(false)}} className={`h-full w-full ${loading === true && 'hidden'}`}/>
             </a>
             <div className='w-80 flex justify-center items-center sm:w-[48rem] bg-gray-600 h-2.5 sm:h-5'>
