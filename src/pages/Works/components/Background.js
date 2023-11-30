@@ -15,18 +15,13 @@ const Background = () => {
   }
 
   return (
-    <div className="-z-50 bg-black fixed h-screen w-screen pointer-events-none">
-      <div className="flex flex-col justify-between h-[calc(100vh-5rem)] w-[1920px] mt-20 py-2.5">
-        {row('blue')}{row('aqua')}
-        {row('blue')}{row('aqua')}
-        {row('blue')}{row('aqua')}
-        {row('blue')}{row('aqua')}
-        {row('blue')}{row('aqua')}
-        {row('blue')}{row('aqua')}
-        {row('blue')}{row('aqua')}
-        {row('blue')}{row('aqua')}
-        {row('blue')}{row('aqua')}
-        {row('blue')}{row('aqua')}
+    <div className="-z-50 bg-black fixed h-screen w-screen pointer-events-none top-20">
+      <div className="flex flex-col justify-between h-[calc(100vh-5rem)] w-[1920px] py-2">
+        {row('blue')}{row('aqua')}{row('blue')}{row('aqua')}
+        {row('blue')}{row('aqua')}{row('blue')}{row('aqua')}
+        {row('blue')}{row('aqua')}{row('blue')}{row('aqua')}
+        {row('blue')}{row('aqua')}{row('blue')}{row('aqua')}
+        {row('blue')}{row('aqua')}{row('blue')}{row('aqua')}
       </div>
     </div>
   );

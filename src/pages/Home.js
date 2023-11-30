@@ -4,19 +4,34 @@ import github from '../images/github.svg'
 import email from '../images/email.svg'
 
 const Home = () => {
+  const generateArray = (length) => {
+    return Array.from({ length }, (_, index) => index % 2);
+  };
+  
+  const myArray = generateArray(200);
+
+  const row = (color) => {
+    return (
+      <div className='w-[3840px] text-2xl flex justify-between' style={{fontFamily: 'Minecraft', color: color, animation: `${color == 'blue' ? 'left' : 'right'} 15s linear infinite`}}>
+        {myArray.map((num, i) => {return <p key={i}>{num}</p>})}
+      </div>
+    )
+  }
+
   return (
-    <div className="text-white pt-20 font-bold flex w-screen sm:flex-row flex-col items-center !overflow-auto">
-      <div className="mt-20 w-full p-6 sm:px-20 bg-black" style={{fontFamily:'Poppins'}}>
-        <h1 className="sm:text-5xl text-4xl  animate__animated animate__lightSpeedInRight">Michael Medina</h1>
-        <div className='flex items-center my-2 sm:my-3 animate__animated animate__lightSpeedInRight' style={{animationDelay:'.33s'}}>
-          <h1 className="sm:text-4xl text-2xl mr-2">React Developer</h1>
-          <img className='sm:h-10 h-8' src={reactIcon}/>
-        </div>
-        <div className='flex sm:justify-between sm:flex-row flex-col items-center w-full'>
-          <h1 className="sm:text-xl text-lg mb-6 sm:m-0 animate__animated animate__lightSpeedInRight" style={{animationDelay:'.66s'}}>
+    <div className="pt-20 font-bold flex sm:flex-row flex-col bg-black w-screen overflow-hidden">
+      <div className="flex flex-col justify-between h-[calc(100vh-5rem)] py-2">
+        {row('blue')}{row('aqua')}
+        <div className="text-white font-bold py-4 sm:px-20 px-10 w-screen" style={{fontFamily:'Poppins'}}>
+          <h1 className="sm:text-5xl text-4xl  animate__animated animate__lightSpeedInRight">Michael Medina</h1>
+          <div className='flex items-center my-2 sm:my-3 animate__animated animate__lightSpeedInRight' style={{animationDelay:'.25s'}}>
+            <h1 className="sm:text-4xl text-2xl mr-2">React Developer</h1>
+            <img className='sm:h-10 h-8' src={reactIcon}/>
+          </div>
+          <h1 className="sm:text-xl text-lg animate__animated animate__lightSpeedInRight mb-10" style={{animationDelay:'.5s'}}>
             Greetings! I build visually engaging web applications.
           </h1>
-          <div className='flex sm:justify-normal animate__animated animate__lightSpeedInRight' style={{animationDelay:'1s'}}>
+          <div className='flex animate__animated animate__lightSpeedInRight' style={{animationDelay:'.75s'}}>
             <a href='mailto:michaeljmedina22800@gmail.com'>
               <img className='h-10 cursor-pointer hover:animate-bounce' src={email}/>
             </a>
@@ -28,6 +43,9 @@ const Home = () => {
             </a>
           </div>
         </div>
+        {row('blue')}{row('aqua')}{row('blue')}{row('aqua')}{row('blue')}{row('aqua')}
+        {row('blue')}{row('aqua')}{row('blue')}{row('aqua')}{row('blue')}{row('aqua')}
+        {row('blue')}{row('aqua')}{row('blue')}{row('aqua')}{row('blue')}{row('aqua')}
       </div>
     </div>
   )
