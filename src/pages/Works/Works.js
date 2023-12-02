@@ -11,7 +11,7 @@ const Works = () => {
 
   return (
     <>
-      <div className='pt-20 w-screen h-screen flex flex-col items-center text-white font-bold overflow-hidden'>
+      <div className='pt-20 w-screen h-screen flex flex-col items-center text-white overflow-hidden'  style={{fontFamily:'Poppins'}}>
         <div className='flex flex-col sm:flex-row items-center my-20'>
           <div className='flex flex-col items-center sm:mr-20 sm:mb-0 mb-5'>
             <a 
@@ -28,11 +28,11 @@ const Works = () => {
             <div className='sm:h-[10px] h-[5px] sm:w-96 w-48 bg-gray-400 rounded-t-lg'/>
           </div>
           {appImage === cryptomatics &&
-            <div className={`rounded-xl p-5 bg-purple-900 h-fit sm:w-[36rem] w-80 animate__animated animate__slide${appImage === cryptomatics ? 'InRight' : 'OutLeft'}`}>
+            <div className='rounded-xl p-5 sm:p-10 bg-purple-900 h-fit sm:w-[36rem] w-80 animate__animated animate__slideInRight'>
               <div className='flex justify-between'>
-                <h1 className='sm:text-3xl text-xl sm:mb-4 mb-2'>Cryptomatics</h1>
+                <h1 className='sm:text-3xl text-xl sm:mb-4 mb-2 font-extrabold'>Cryptomatics</h1>
                 <div className='cursor-pointer' onClick={() => {setAppImage(weatherboy); setLoading(true)}}>
-                  <ArrowCircleRight className='!sm:text-4xl text-2xl rounded-full'/>
+                  <ArrowCircleRight className='rounded-full !text-2xl sm:!text-4xl'/>
                 </div>
               </div>
               <p className='sm:text-lg text-sm'>
@@ -43,11 +43,11 @@ const Works = () => {
             </div>
           }
           {appImage === weatherboy &&
-            <div className={`rounded-xl p-5 bg-purple-900 h-fit sm:w-[36rem] w-80 animate__animated animate__slide${appImage === weatherboy ? 'InRight' : 'Out'}`}>
+            <div className='rounded-xl p-5 sm:p-10 bg-purple-900 h-fit sm:w-[36rem] w-80 animate__animated animate__slideInRight'>
               <div className='flex justify-between'>
-                <h1 className='sm:text-3xl text-xl sm:mb-4 mb-2'>Weatherboy</h1>
+                <h1 className='sm:text-3xl text-xl sm:mb-4 mb-2  font-extrabold'>Weatherboy</h1>
                 <div className='cursor-pointer' onClick={() => {setAppImage(cryptomatics); setLoading(true)}}>
-                  <ArrowCircleRight className='!sm:text-4xl text-2xl rounded-full'/>
+                  <ArrowCircleRight className='rounded-full !text-2xl sm:!text-4xl' fontSize='large'/>
                 </div>
               </div>
               <p className='sm:text-lg text-sm'>
