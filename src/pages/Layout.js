@@ -12,7 +12,7 @@ const Layout = () => {
   return (
     <>
       <nav className="fixed font-bold top-0 w-screen px-5 sm:px-10 h-20 flex items-center justify-between z-50 bg-black border-b-2 border-[aqua]">
-        <h1 className='h-10 w-10 flex items-center justify-center border-[blue] border-2 p-2 rounded-full'>
+        <h1 className='h-10 w-10 flex items-center justify-center border-[aqua] border-2 p-2 rounded-full'>
           <img src={m}/>
         </h1>
         <div className='hidden sm:flex text-lg text-white w-64 justify-between items-center'>
