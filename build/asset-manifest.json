@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d4c42187.css",
-    "main.js": "/Portfolio/static/js/main.653c2e3f.js",
+    "main.js": "/Portfolio/static/js/main.71e1de82.js",
     "static/media/cryptomatics.png": "/Portfolio/static/media/cryptomatics.02e5f637f0a5cb20b198.png",
-    "static/media/weatherboy.png": "/Portfolio/static/media/weatherboy.3ef6f707e28775b91f6c.png",
+    "static/media/weatherboy.png": "/Portfolio/static/media/weatherboy.3c9eec07e3cf5e7271fc.png",
     "static/media/Minecraft.ttf": "/Portfolio/static/media/Minecraft.81f6c7f882fcc2dee106.ttf",
     "static/media/github.svg": "/Portfolio/static/media/github.8278941d1b24a9b9e8e2d4232b607f3e.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.c5b0b1b4792c4adac01506428d371c41.svg",
@@ -12,10 +12,10 @@
     "static/media/email.svg": "/Portfolio/static/media/email.fa4990f5abfd4faf248530df7dc344f6.svg",
     "static/media/React-icon.svg": "/Portfolio/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.d4c42187.css.map": "/Portfolio/static/css/main.d4c42187.css.map",
-    "main.653c2e3f.js.map": "/Portfolio/static/js/main.653c2e3f.js.map"
+    "main.71e1de82.js.map": "/Portfolio/static/js/main.71e1de82.js.map"
   },
   "entrypoints": [
     "static/css/main.d4c42187.css",
-    "static/js/main.653c2e3f.js"
+    "static/js/main.71e1de82.js"
   ]
 }
