@@ -53,7 +53,8 @@ const Works = () => {
               <p className='sm:text-lg text-sm'>
                 A fully responsive React app that displays real time weather conditions and forecasts from NWS stations across the United States.
                 A searchbar with autocomplete functionality for US cities is provided with the use of Google Maps Platform.
-                Included is a hurricane tracker that displays both active and historical hurricane data across the Atlantic and Pacific Ocean.
+                Included is an interactive map that displays real time cloud, precipitation, temperature, wind, sea level pressure, and tropical cyclone data across the globe. 
+                For weather enthusiasts, there's another interactive map that displays historical tropical cyclone tracks worldwide since records began.
                 This app is stylized with Tailwind CSS and Material UI.
                 Data is fetched with Axios from <a href="https://www.weather.gov/documentation/services-web-api" className='underline text-[aqua]'>NWS API</a>, <a href="https://openweathermap.org/api" className='underline text-[aqua]'>OpenWeather API</a>, and <a href="https://www.aerisweather.com/support/docs/api/" className='underline text-[aqua]'>AerisWeather API</a>.
               </p>
