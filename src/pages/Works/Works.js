@@ -6,7 +6,7 @@ import Background from './components/Background'
 import { CircularProgress } from '@mui/material'
 
 const Works = () => {
-  const [appImage, setAppImage] = useState(cryptomatics)
+  const [appImage, setAppImage] = useState(weatherboy)
   const [loading, setLoading] = useState(true)
 
   return (
