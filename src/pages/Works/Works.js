@@ -38,7 +38,7 @@ const Works = () => {
               <p className='sm:text-lg text-sm'>
                 A fully responsive React app that displays real time crypto stats and trends.
                 This app is stylized with Tailwind CSS and Material UI.
-                Data is fetched using Axios from <a href="https://rapidapi.com/Coinranking/api/coinranking1" className='underline text-[aqua]'>Coinranking API</a>.
+                Data is fetched with Axios from <a href="https://rapidapi.com/Coinranking/api/coinranking1" className='underline text-[aqua]'>Coinranking API</a>.
               </p>
             </div>
           }
@@ -55,7 +55,7 @@ const Works = () => {
                 A searchbar with autocomplete functionality for US cities is provided with the use of Google Maps Platform.
                 Included is a hurricane tracker that displays both active and historical hurricane data across the Atlantic and Pacific Ocean.
                 This app is stylized with Tailwind CSS and Material UI.
-                Data is fetched using Axios from <a href="https://www.weather.gov/documentation/services-web-api" className='underline text-[aqua]'>NWS API</a> and <a href="https://www.aerisweather.com/support/docs/api/" className='underline text-[aqua]'>AerisWeather API</a>.
+                Data is fetched with Axios from <a href="https://www.weather.gov/documentation/services-web-api" className='underline text-[aqua]'>NWS API</a>, <a href="https://openweathermap.org/api" className='underline text-[aqua]'>OpenWeather API</a>, and <a href="https://www.aerisweather.com/support/docs/api/" className='underline text-[aqua]'>AerisWeather API</a>.
               </p>
             </div>
           }
