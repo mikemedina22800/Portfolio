@@ -27,7 +27,7 @@ const Intro = () => {
     <div className="flex sm:flex-row flex-col font-bold bg-black w-screen h-screen overflow-hidden">
       <div className="flex flex-col justify-between h-screen py-2">
         {row('blue')}{row('aqua')}{row('blue')}{row('aqua')}
-        <div className="text-white w-screen p-8 sm:px-16 flex sm:justify-between sm:flex-row flex-col">
+        <div className="text-white w-screen p-8 sm:px-16 flex sm:justify-between 2xl:flex-row flex-col">
           <div className='flex flex-col animate__animated animate__slideInLeft'>
             <h1 className="sm:text-5xl text-3xl">Michael Medina</h1>
             <div className='flex items-center my-2 sm:my-3'>
