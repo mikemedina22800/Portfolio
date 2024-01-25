@@ -36,7 +36,7 @@ const Works = () => {
         </div>
         <div className='flex flex-col items-center'>
           <a 
-            className='flex justify-center items-center sm:mx-10 mx-0 bg-gray-200 sm:w-[48rem] w-80 sm:h-[24rem] h-40 border-gray-600 rounded-t-sm sm:border-[10px] border-[5px] !border-b-0 border-box' 
+            className='flex justify-center items-center sm:mx-10 mx-0 bg-gray-200 sm:w-[48rem] w-80 sm:h-[24rem] h-40 border-gray-600 rounded-t-sm sm:border-[10px] border-[5px] !border-b-0' 
             href={`https://mikemedina22800.github.io/${appImage === cryptomatics && 'Cryptomatics', appImage === weatherboy && 'Weatherboy'}/`}
           >
             {loading === true && <CircularProgress className='sm:!w-20 sm:!h-20 !h-10 !w-10'/>}
@@ -46,7 +46,7 @@ const Works = () => {
             <div className='bg-gray-800 h-1.5 w-1.5 sm:w-3 sm:h-3 rounded-full'/>
           </div>
           <div className='sm:w-32 w-16  bg-gray-800 sm:h-16 h-8'/>
-          <div className='sm:h-[10px] h-[5px] sm:w-96 w-48 bg-gray-400 rounded-t-lg'/>
+          <div className='sm:h-[10px] h-[5px] sm:w-96 w-48 bg-gray-600 rounded-t-lg'/>
         </div>
         <div onClick={next} className='sm:block hidden'>
           <ArrowCircleRight className='!text-6xl cursor-pointer !text-gray-800 !bg-white rounded-full'/>
