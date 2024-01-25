@@ -25,3 +25,11 @@
     transform: translateX(-1920px);
   }
 }
+
+.glow-blue {
+  text-shadow: 0 0 20px #00f
+}
+
+.glow-aqua {
+  text-shadow: 0 0 20px #0ff;
+}
