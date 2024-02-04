@@ -33,3 +33,7 @@
 .glow-aqua {
   text-shadow: 0 0 20px #0ff;
 }
+
+.glow-white {
+  text-shadow: 0 0 20px #ffffff;
+}
