@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0 box-border
+
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+.root {
+  @apply w-screen h-screen bg-black flex flex-col text-[aqua] p-20
+}
+
+@font-face {
+  font-family: airstrike;
+  src: url("../public/airstrike.ttf");
+}
+
+h1, p {
+  text-shadow: 0 0 10px aqua;
+  font-family: airstrike;
+  -webkit-user-select: none;
+  user-select: none; 
+}
+
+.section {
+  @apply w-full p-8 border-solid border-2 rounded-lg cursor-pointer duration-200 flex justify-center -skew-x-12
+}
+
+
+.section:hover {
+  box-shadow: 0 0 10px aqua;
+  border-color: aqua;
+}
+
+.section h1 {
+  @apply text-4xl duration-200
+}
+
+.section:hover h1 {
+  color: aqua;
+  text-shadow: 0 0 10px aqua;
+}
+
+.about-me {
+  border-color: red;
+  box-shadow: 0 0 10px red;
+}
+
+.about-me h1, .about-me p {
+  color: red;
+  text-shadow:  0 0 10px red;
+}
+
+.works {
+  border-color: orange;
+  box-shadow: 0 0 10px orange;
+}
+
+.works h1, .works p {
+  color: orange;
+  text-shadow:  0 0 10px orange;
+}
+
+.contacts {
+  border-color: yellow;
+  box-shadow: 0 0 10px yellow;
+}
+
+.contacts h1, .contacts p{
+  color: yellow;
+  text-shadow:  0 0 10px yellow;
+}
+
+.resume {
+  border-color: lime;
+  box-shadow: 0 0 10px lime;
+}
+
+.resume h1 {
+  color: lime;
+  text-shadow:  0 0 10px lime;
+}
+
+.reset {
+  color: violet;
+  border-color: violet;
+  box-shadow: 0 0 10px violet;
+}
+
+.reset h1 {
+  color: violet;
+  text-shadow:  0 0 10px violet;
+}
+
+.section-content {
+  @apply w-[45%] h-full p-10 border-solid border-2 rounded-lg cursor-pointer duration-200
+}
+
+
+
