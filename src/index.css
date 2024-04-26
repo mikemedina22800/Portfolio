@@ -20,28 +20,33 @@
   src: url("../public/airstrike.ttf");
 }
 
-h1, p {
+@font-face {
+  font-family: digital;
+  src: url("../public/digital-7.ttf");
+}
+
+.header, .section-button {
   text-shadow: 0 0 10px aqua;
   font-family: airstrike;
   -webkit-user-select: none;
   user-select: none; 
 }
 
-.section {
+.section-button {
   @apply w-full p-8 border-solid border-2 rounded-lg cursor-pointer duration-200 flex justify-center -skew-x-12
 }
 
 
-.section:hover {
+.section-button:hover {
   box-shadow: 0 0 10px aqua;
   border-color: aqua;
 }
 
-.section h1 {
+.section-button h1 {
   @apply text-4xl duration-200
 }
 
-.section:hover h1 {
+.section-button:hover h1 {
   color: aqua;
   text-shadow: 0 0 10px aqua;
 }
@@ -76,12 +81,12 @@ h1, p {
   text-shadow:  0 0 10px yellow;
 }
 
-.resume {
+.unpause {
   border-color: lime;
   box-shadow: 0 0 10px lime;
 }
 
-.resume h1 {
+.unpause h1 {
   color: lime;
   text-shadow:  0 0 10px lime;
 }
@@ -97,8 +102,11 @@ h1, p {
   text-shadow:  0 0 10px violet;
 }
 
-.section-content {
-  @apply w-[45%] h-full p-10 border-solid border-2 rounded-lg cursor-pointer duration-200
+.section {
+  font-family: digital;
+  -webkit-user-select: none;
+  user-select: none; 
+  @apply w-[45%] h-full p-10 border-solid border-2 rounded-lg italic
 }
 
 
